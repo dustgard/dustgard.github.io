@@ -1,0 +1,25 @@
+body {
+    background-color: lightblue;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+#head {
+    color: red;
+    text-align: center;
+    background-color: darkblue;
+    font-size: 70px
+}
+
+p {
+    padding: 10px 20%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
