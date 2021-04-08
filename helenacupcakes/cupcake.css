@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CCCCCC;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 65%;
+    background-color: white;
+}
+
+
+nav,
+footer {
+    padding: 1.6%;
+    margin-top: -3px;
+}
+
+header {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+nav,
+footer {
+    background-color: #0EC8C7;
+    text-align: center;
+
+}
+
+nav ul,
+footer ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav li,
+footer li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1.6% 4.6%;
+}
+
+
+section {
+    background-color: #EC3632;
+    overflow: auto;
+
+}
+
+
+
+aside {
+    background-color: #EC3632;
+    width: 22%;
+    float: left;
+
+
+}
+
+aside li {
+    list-style-type: none;
+    padding: 10px 0;
+
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+article {
+    background-color: white;
+    width: 72%;
+    float: right;
+    padding: 3%;
+}
+
+article h1 {
+    font-size: 2em;
+}
+
+footer {
+    background-color: #0EC8C7;
+    font-size: 11px;
+}
+
+footer a {
+    color: navy;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.cupcake {
+    width: 48%;
+    float: right;
+    padding: 0 0 1% 2%;
+}
+
+header img {
+    width: 100%;
+
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        background-color: aqua;
+    }
+
+    #wrap {
+        width: 100%;
+    }
+
+    nav a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+    }
+
+    footer a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+        font-size: 15px;
+    }
+
+    nav {
+        padding: 0;
+    }
+
+    aside,
+    article {
+        float: none;
+        width: 94%;
+    }
+
+    .cupcake {
+        width: 100%;
+        float: none;
+    }
+
+    aside {
+        text-align: center;
+    }
+}
