@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q4XC7FWPB8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Q4XC7FWPB8');
+
+    </script>
+
+    <link rel="stylesheet" href="reveal/reveal.css">
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
+    <script type="text/javascript" src="reveal/jquery.reveal.js"></script>
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="final.css" type="text/css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+
+    <title>Bear Homepage</title>
+
+</head>
+
+<body id="home">
+    <div id="wrap">
+
+
+
+        <header>
+            <img src="bearhomebanner.jpg">
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="black.html">Black Bear</a></li>
+                <li><a href="grizzly.html">Grizzle Bear</a></li>
+                <li><a href="polar.html">Polar Bear</a></li>
+                <li><a href="panda.html">Panda Bear</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1>Amazing Facts About the Bear</h1>
+
+
+
+            <p>
+                Bears are extraordinarily intelligent animals. They have far superior navigation skills to humans; excellent memories; large brain to body ratio; and use tools in various contexts from play to hunting.
+                Bears grieve deeply for others. Cubs are known to moan and cry when separated from their mothers. This can go on for weeks if their mothers are killed by hunters.
+                Bears have excellent senses of smell, sight and hearing. They can smell food, cubs, a mate or predators from miles away. Their great eyesight allows them to detect when fruits are ripe.
+                Some species of Asiatic bear build nests in the trees. They can use these for hiding, eating and even sleeping.
+                Bears care deeply about family members. They will risk their lives and even fight to the death in order to save a cub or sibling from danger.
+
+
+
+            </p>
+
+            <p><a href="#" class="big-link" data-reveal-id="1">Donation Form</a></p>
+
+
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="blackbearbanner.jpg" data-thumb="blackbearbanner.jpg" alt="Black Bear" />
+                    <img src="grizzlybearbanner.jpg" data-thumb="grizzlybearbanner.jpg" alt="Black Bear" />
+                    <img src="polarbearbanner.jpg" data-thumb="polarbearbanner.jpg" alt="Polar Bear" />
+                    <img src="pandabearbanner.jpg" data-thumb="pandabearbanner.jpg" alt="Panda Bear" />
+
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                </div>
+            </div>
+
+            <h1>Grizzly Bear Sighting</h1>
+
+            <div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10084.427833827465!2d-112.17272637591864!3d46.443017358630804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535b50b679d032fd%3A0x2dbbcfc96c744c86!2sPark%20Lake%20Campground!5e0!3m2!1sen!2sus!4v1619118714149!5m2!1sen!2sus' width='600' height='450' style='border:0;' allowfullscreen='' loading='lazy'></iframe></div>
+
+            <div id="1" class="reveal-modal">
+                <h1>Bear Donation Form</h1>
+                <form method="post" action="index.html">
+                    <fieldset>
+                        <legend>Donation Information</legend>
+                        <p>
+                            <label for="fname">First Name</label><br>
+                            <input type="text" id="fname" name="fname">
+                        </p>
+
+                        <p><label for="lname">Last Name</label><br>
+                            <input type="text" id="lname" name="lname">
+                        </p>
+
+                        <p><label for="email">Email</label><br>
+                            <input type="email" id="email" name="email">
+                        </p>
+
+                        <p><label for="phone">Phone</label><br>
+                            <input type="tel" id="phone" name="phone">
+                        </p>
+
+                        <p><label for="donation">Donation $</label><br>
+                            <input type="tel" id="phone" name="phone">
+                        </p>
+
+                        <p>What is your favorite kind of bear?</p>
+
+                        <select id="bear">
+                            <option value="None">Select a bear</option>
+                            <option value="Black Bear">Black Bear</option>
+                            <option value="Grizzly Bear">Grizzly Bear</option>
+                            <option value="Polar Bear">Polar Bear</option>
+                            <option value="Panda Bear">Panda Bear</option>
+                        </select>
+
+                        <p>Comments?</p>
+
+                        <textarea name="comments" id="comments" placeholder="Enter you comments">
+                </textarea>
+
+                        <p> <input type="submit" value="Submit Donation"></p>
+                    </fieldset>
+                </form>
+                <a class="close-reveal-modal">&#215;</a>
+            </div>
+
+
+        </section>
+
+        <footer>
+            <p>Let us take a journey with bears</p>
+            <p>&copy; 2021 D&amp;G. </p>
+        </footer>
+    </div>
+    <!--Close wrap div-->
+
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+
+</body>
+
+</html>

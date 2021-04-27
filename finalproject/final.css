@@ -1,0 +1,440 @@
+#home {
+    background-color: dimgrey;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#black {
+    background-color: green;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#grizzly {
+    background-color: rosybrown;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#polar {
+    background-color: mistyrose;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+#panda {
+    background-color: darkgrey;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+}
+
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+header img {
+    width: 100%;
+}
+
+
+#home nav {
+    background-color: darkseagreen;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#home nav a {
+    color: white;
+    font-family: verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%
+}
+
+#home nav a:hover {
+    background-color: darkgreen;
+    color: black;
+}
+
+#black nav {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#black nav a {
+    color: darkgreen;
+    font-family: verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%
+}
+
+#black nav a:hover {
+    background-color: lightcoral;
+    color: white;
+}
+
+#polar nav {
+    background-color: rosybrown;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#polar nav a {
+    color: darkgreen;
+    font-family: verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%
+}
+
+#polar nav a:hover {
+    background-color: brown;
+    color: black;
+}
+
+#grizzly nav {
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#grizzly nav a {
+    color: white;
+    font-family: verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%
+}
+
+#grizzly nav a:hover {
+    background-color: lightcyan;
+    color: black;
+}
+
+#panda nav {
+    background-color: dimgrey;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#panda nav a {
+    color: black;
+    font-family: verdana, sans-serif;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 120%
+}
+
+#panda nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+nav li {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 1% 4%;
+    overflow: auto
+}
+
+#home section h1 {
+    color: sandybrown;
+    font-family: 'Zen Dots', cursive;
+    font-size: 180%;
+}
+
+#black section h1 {
+    color: green;
+    font-family: 'Zen Dots', cursive;
+    font-size: 180%;
+}
+
+#polar section h1 {
+    color: darkgreen;
+    font-family: 'Zen Dots', cursive;
+    font-size: 180%;
+}
+
+#grizzly section h1 {
+    color: red;
+    font-family: 'Zen Dots', cursive;
+    font-size: 180%;
+}
+
+#panda section h1 {
+    color: black;
+    font-family: 'Zen Dots', cursive;
+    font-size: 180%;
+}
+
+
+
+#home footer {
+    background-color: darkseagreen;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#black footer {
+    background-color: lightgreen;
+    color: green;
+    padding: 15px;
+    text-align: center;
+
+}
+
+#polar footer {
+    background-color: rosybrown;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#grizzly footer {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+#panda footer {
+    background-color: dimgrey;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+.big-link {
+    background-color: darkseagreen;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+section a:hover {
+    background-color: darkgreen;
+    color: black;
+}
+
+
+fieldset {
+    border-radius: 1em;
+}
+
+legend {
+    font-size: 30px;
+    font-family: Georgia;
+    background-color: sandybrown;
+    color: white;
+    padding: 5px 10px
+}
+
+textarea {
+    width: 50%;
+}
+
+form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.embed-container1 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container1 iframe,
+.embed-container1 object,
+.embed-container1 embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.embed-container2 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container2 iframe,
+.embed-container2 object,
+.embed-container2 embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.embed-container3 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container3 iframe,
+.embed-container3 object,
+.embed-container3 embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.embed-container4 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container4 iframe,
+.embed-container4 object,
+.embed-container4 embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 800px) {
+
+    #wrap {
+        width: 100%;
+    }
+
+    #home nav a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+    }
+
+    #home nav {
+        padding: 0;
+    }
+
+    #black nav a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+    }
+
+    #black nav {
+        padding: 0;
+    }
+
+    #grizzly nav a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+    }
+
+    #grizzly nav {
+        padding: 0;
+    }
+
+    #polar nav a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+    }
+
+    #polar nav {
+        padding: 0;
+    }
+
+    #panda nav a {
+        width: 100%;
+        padding: 15px 0;
+        display: block;
+    }
+
+    #panda nav {
+        padding: 0;
+    }
+
+
+    fieldset {
+        border-radius: 1em;
+    }
+
+    legend {
+        font-size: 30px;
+        font-family: Georgia;
+        background-color: sandybrown;
+        color: white;
+        padding: 5px 10px
+    }
+
+    textarea {
+        width: 50%;
+    }
+
+    form {
+        width: 60%;
+        margin: 0;
+    }
+
+
+}
